@@ -37,7 +37,7 @@ Options:
 
 ROM types:
 
-  aex-pie
+  aex-ten
   aicp-oreo
   aokp-oreo
   aosmp-pie
@@ -47,14 +47,14 @@ ROM types:
   aosp10
   aquarios
   carbon-oreo
-  crdroid-oreo
+  crdroid-10
   e-pie
   e-oreo
-  havoc-pie
+  havoc-10
   komodo-pie
   lineage151
-  lineage160
-  mokee-oreo
+  lineage171
+  mokee-10
   pixel81
   pixel90
   potato-pie
@@ -156,18 +156,18 @@ function get_rom_type() {
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="true"
                 ;;
-            lineage160)
+            lineage171)
                 mainrepo="https://github.com/LineageOS/android.git"
-                mainbranch="lineage-16.0"
-                localManifestBranch="android-9.0"
+                mainbranch="lineage-17.1"
+                localManifestBranch="android-10.0"
                 treble_generate="lineage"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="false"
                 ;;
-            rr-oreo)
+            rr-10)
                 mainrepo="https://github.com/ResurrectionRemix/platform_manifest.git"
-                mainbranch="oreo"
-                localManifestBranch="android-8.1"
+                mainbranch="ten"
+                localManifestBranch="android-10.0"
                 treble_generate="rr"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="true"
@@ -244,10 +244,10 @@ function get_rom_type() {
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="true"
                 ;;
-            havoc-pie)
+            havoc-10)
                 mainrepo="https://github.com/Havoc-OS/android_manifest.git"
-                mainbranch="pie"
-                localManifestBranch="android-9.0"
+                mainbranch="10"
+                localManifestBranch="android-10.0"
                 treble_generate="havoc"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="false"
